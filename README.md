@@ -6,6 +6,8 @@ Three people pitch a ridiculous startup idea. For each one, the AI investor **Vi
 
 It runs on **Qwen3-4B, self-hosted with vLLM on Akamai Cloud Kubernetes (LKE)**. Each pitch is one LLM call.
 
+**Project writeup:** [pitch-or-ditch.pdf](pitch-or-ditch.pdf) covers the idea, real output, architecture and a talk track for presenting it.
+
 ## How it works
 
 ```
@@ -102,6 +104,7 @@ At the top of `pitch_or_ditch.py`:
 | `pitch_or_ditch.py` | The Pitch or Ditch game |
 | `app.py` | A minimal chatbot used to test the model connection |
 | `requirements.txt` | Python dependencies (`openai`) |
+| `pitch-or-ditch.pdf` | Project writeup and presentation |
 
 ## Built on Akamai Cloud
 
